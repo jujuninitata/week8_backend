@@ -1,0 +1,13 @@
+install library oauth google
+yarn add react-google-login
+
+====simple Login with Google Express===
+
+yarn init
+yarn add express sequelize-cli sequelize passport passport-google-oauth2 nodemon
+yarn sequelize-cli init
+
+membuat model --> yarn sequelize-cli model:generate --name users --attributes name:string,email:string,photo:string,password:string
+install pg adapter --> yarn add pg
+migrate db --> yarn sequelize-cli db:migrate
+instll express-session --> yarn add express-session
